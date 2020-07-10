@@ -1,9 +1,4 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
-
-@mixin easeOut {
-    transition: all 0.5s ease-out;
-}
+@import 'config';
 
 html {
     font-size: 16px;
@@ -14,6 +9,7 @@ html {
 }
 
 body {
+    @include background;
     padding: 0;
     margin: 0;
     background: $primary-color;
@@ -53,7 +49,8 @@ header {
 }
 
 main {
-    padding: 4rem;
+    padding-left: 29rem;
+    padding-top: 6rem;
     height: 100%;
 
     .icons {
