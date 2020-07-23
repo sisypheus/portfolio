@@ -135,12 +135,18 @@ main {
 }
 
 //my work
-
 .projects {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0px;
+    grid-template-areas:
+    'project1 project2 project3';
     grid-template-columns: repeat(3, 1fr);
 
+    .item {
+        margin-left: -6rem; //original padding
+        grid-area: project2;
+        padding-bottom: 20px;
+    }
 
     img {
         width: 100%;

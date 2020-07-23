@@ -199,8 +199,13 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
+  grid-template-areas: 'project1 project2 project3';
   grid-template-columns: repeat(3, 1fr); }
+  .projects .item {
+    margin-left: -6rem;
+    grid-area: project2;
+    padding-bottom: 20px; }
   .projects img {
     width: 100%;
     border: white solid; }
@@ -233,10 +238,8 @@ main {
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
-  * {
-    overflow: hidden; }
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
