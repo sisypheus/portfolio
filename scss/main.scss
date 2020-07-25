@@ -118,6 +118,10 @@ main {
         grid-area: job1;
     }
 
+    .job-2 {
+        grid-area: job2;
+    }
+
     .job {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
