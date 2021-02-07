@@ -1,18 +1,27 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://sisypheus.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisypheus/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sisypheus/portfolio/issues"
+  },
+  "description": ""
 }
