@@ -140,8 +140,7 @@ header {
   color: #eece1a; }
 
 main {
-  padding-left: 6rem;
-  padding-top: 6rem;
+  padding: 6rem 6rem 6rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -186,9 +185,11 @@ main {
     grid-area: job1; }
   .about-info .job-2 {
     grid-area: job2; }
+  .about-info .job-3 {
+    grid-area: job3; }
   .about-info .job {
     background: #515151;
-    padding: 0.5rem;
+    padding: 1.2rem;
     border-bottom: #eece1a 5px solid; }
 
 .bio-image {
