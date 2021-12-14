@@ -161,13 +161,13 @@ main {
 
 @keyframes animate {
   25% {
-    content: 'Developer';
+    content: 'Mobile Developer';
     color: #eece1a; }
   50% {
-    content: 'Web Developer';
+    content: 'Full-Stack Developer';
     color: #eece1a; }
   75% {
-    content: 'Designer';
+    content: 'Student';
     color: #eece1a; }
   100% {
     content: 'Freelancer';
