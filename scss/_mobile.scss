@@ -60,7 +60,7 @@
 
 @include mediaSm {
     main {
-        padding: 2rem;
+        padding: 0;
     }
 
     main #home h1 {
@@ -74,5 +74,9 @@
     .lg-heading {
         margin-top: 1rem;
         font-size: 5rem;
+    }
+
+    .about-info {
+        padding: 8px;
     }
 }
