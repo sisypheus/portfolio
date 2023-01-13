@@ -76,12 +76,16 @@ main {
 }
 
 .change-text:before {
-    content: 'Developer';
+    content: '';
     color: $secondary-color;
     animation: animate infinite 5s;
 }
 
 @keyframes animate {
+    0%, 100% {
+        content: 'Software Engineer';
+        color: $secondary-color;
+    }
     25%{
         content: 'Mobile Developer';
         color: $secondary-color;
@@ -91,10 +95,6 @@ main {
         color: $secondary-color;
     }
     75%{
-        content: 'Student';
-        color: $secondary-color;
-    }
-    100%{
         content: 'Freelancer';
         color: $secondary-color;
     }

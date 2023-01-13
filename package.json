@@ -4,11 +4,10 @@
   "main": "index.js",
   "homepage": "https://sisypheus.github.io/portfolio",
   "dependencies": {
-    "gh-pages": "^3.2.3",
-    "node-sass": "^7.0.0"
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "sass": "sass scss:dist/css/ -w",
     "deploy": "gh-pages -d dist",
     "test": "echo 'test'"
   },
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sisypheus/portfolio/issues"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
 }
